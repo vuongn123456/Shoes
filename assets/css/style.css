@@ -1,0 +1,130 @@
+/* ------------------------------------------------------------------
+  HEADER
+  ------------------------------------------------------------------- */
+.main-top {
+  background: #010101;
+  padding: 10px 0;
+  margin-bottom: -12px;
+}
+.main-top a {
+  text-decoration: none !important;
+}
+.custom-select-box {
+  display: none;
+}
+.custom-select-box {
+  float: right;
+  width: 95px;
+  margin-left: 20px;
+}
+.custom-select-box .form-control {
+  background: #d33b33;
+  border: none;
+}
+.custom-select-box .bootstrap-select .btn-light {
+  padding: 4px;
+  font-size: 14px;
+  background: #d33b33;
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+}
+.custom-select-box .bootstrap-select .btn-light span {
+  padding: 2px;
+  line-height: 15px;
+}
+.dropdown-toggle::after {
+  margin-left: -24px;
+}
+.custom-select-box .dropdown-toggle::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  position: absolute;
+  top: 13px;
+  right: 10px;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+  overflow: inherit;
+}
+.bootstrap-select.btn-group .dropdown-menu {
+  border: none;
+  padding: 0px;
+  border-radius: 0px;
+}
+.right-phone-box {
+  float: right;
+  margin-left: 10px;
+}
+.right-phone-box p {
+  margin: 0px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.right-phone-box p a {
+  color: #ffffff;
+}
+.right-phone-box p a:hover {
+  color: #d33b33;
+}
+.offer-box,
+.slide {
+  color: #ffffff;
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+}
+.offer-box li {
+  font-weight: 600;
+  list-style: none;
+}
+.offer-box li i {
+  margin-right: 15px;
+  color: #d33b33;
+  font-size: 20px;
+}
+.our-link {
+  float: right;
+}
+.our-link ul li {
+  display: inline-block;
+  border-right: 1px solid #ffffff;
+  padding: 0px 10px;
+  line-height: 14px;
+}
+.our-link ul {
+  line-height: 30px;
+}
+.our-link ul li a {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.our-link ul li a:hover {
+  color: #d33b33;
+}
+.our-link ul li:last-child {
+  border: none;
+}
+div#baguetteBox-overlay {
+  display: none;
+}
+/* @media (min-width: 768px) {
+  .main-top {
+    display: none;
+  } */
+/* } */
+@media (max-width: 575px) {
+  .main-top {
+    display: none;
+  }
+}
